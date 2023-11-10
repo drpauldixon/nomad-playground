@@ -40,3 +40,7 @@ nomad job scale jane-service 3
 
 ```
 nomad job scale bob-service 5
+
+## To Do
+
+Fix the internal network and use the pre-defined 192 IP addresses for Traefik. Currently traefik routes using the internal Vagrant NATed ip addresses which makes the responses very slow.
