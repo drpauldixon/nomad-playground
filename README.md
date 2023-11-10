@@ -40,6 +40,7 @@ nomad job scale jane-service 3
 
 ```
 nomad job scale bob-service 5
+```
 
 ## To Do
 
